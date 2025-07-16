@@ -1,0 +1,12 @@
+[build]
+  publish = "public"
+  command = "echo 'Static site ready'"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/stripe-webhook"
+  to = "/.netlify/functions/stripe-webhook"
+  status = 200

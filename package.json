@@ -1,0 +1,27 @@
+{
+  "name": "traffic-control-bot-webhooks",
+  "version": "1.0.0",
+  "description": "Netlify Functions für Stripe Webhooks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site ready'",  // ← das erwartet Netlify für die Framework-Erkennung
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "stripe": "^14.21.0",
+    "@supabase/supabase-js": "^2.39.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.15.4"
+  },
+  "keywords": [
+    "stripe",
+    "webhook",
+    "netlify",
+    "telegram-bot",
+    "premium"
+  ],
+  "author": "Dein Name",
+  "license": "MIT"
+}
