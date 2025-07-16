@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "build": "echo 'Static site ready'",  // ← das erwartet Netlify für die Framework-Erkennung
+    "build": "echo 'Static site ready'",
     "deploy": "netlify deploy --prod"
   },
   "dependencies": {
